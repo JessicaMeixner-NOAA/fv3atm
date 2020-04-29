@@ -17,6 +17,13 @@ case "$MACHINE_ID" in
             export F77=mpiifort
             export F90=mpiifort
             ;;
+        wcoss)
+            export CC=mpiicc
+            export CXX=mpiicpc
+            export FC=mpiifort
+            export F77=mpiifort
+            export F90=mpiifort
+            ;;
         gaea.intel)
             export LD=ftn
             export CC=cc
